@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"baseUrl": ".",
+		"declaration": true,
+		"removeComments": false,
+		"noLib": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"target": "ES6",
+		"lib": ["ES6", "DOM"],
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"jsx": "react"
+	},
+	"include": ["@types/**/*.d.ts"]
+}

@@ -1,0 +1,39 @@
+{
+	"name": "@docmy/storybook-components",
+	"version": "0.0.0",
+	"description": "All storybook preview components",
+	"keywords": [],
+	"author": "Renan Henrique Zanoti <rh.zanoti@gmail.com>",
+	"license": "ISC",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"directories": {
+		"lib": "lib"
+	},
+	"files": [
+		"lib"
+	],
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/renanzan/storybook-components.git"
+	},
+	"scripts": {
+		"build": "tsc"
+	},
+	"bugs": {
+		"url": "https://github.com/renanzan/storybook-components/issues"
+	},
+	"homepage": "https://github.com/renanzan/storybook-components#readme",
+	"dependencies": {
+		"@docmy/storybook-status-table": "^0.0.0",
+		"@docmy/storybook-breakpoint-indicator": "^0.0.0",
+		"@docmy/storybook-cards-preview": "^0.0.0",
+		"@docmy/storybook-color-palette": "^0.0.0",
+		"@docmy/storybook-squared-paper": "^0.0.0",
+		"@docmy/storybook-typeset": "^0.0.0"
+	}
+}

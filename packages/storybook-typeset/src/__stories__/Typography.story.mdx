@@ -1,0 +1,28 @@
+import { Meta } from "@storybook/addon-docs";
+import SquarePaperContainer from "@docmy/storybook-squared-paper";
+
+import fontSizes from "./fontSizes.mock";
+import Typeset from "..";
+
+<Meta
+	title="Example/Typography"
+	parameters={{
+		viewMode: "docs",
+		previewTabs: {
+			canvas: { hidden: true },
+			"storybook/docs/panel": { hidden: true }
+		}
+	}}
+/>
+
+# Tipografia
+
+Uma paleta de cores flexível para obter interfaces limpas e experiências de marca cativantes.
+
+<SquarePaperContainer>
+	<Typeset variants={fontSizes} whitelist={["xs", "sm", "md", "lg"]} previewText="Luke, eu sou seu pai" />
+</SquarePaperContainer>
+
+<SquarePaperContainer>
+	<Typeset variants={fontSizes} whitelist={["h1", "h2", "h3", "h4", "h5", "h6"]} previewText="Luke, eu sou seu pai" />
+</SquarePaperContainer>

@@ -1,0 +1,32 @@
+# Artifacts
+public
+node_modules
+
+# Compiled output
+lib
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Tests
+__tests__
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Others
+.env
+yarn.lock
+.env.local
+yarn.lock
+package-lock.json

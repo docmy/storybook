@@ -1,0 +1,19 @@
+{
+	"tabWidth": 2,
+	"printWidth": 80,
+	"useTabs": true,
+	"singleQuote": false,
+	"jsxSingleQuote": false,
+	"trailingComma": "none",
+	"bracketSpacing": true,
+	"arrowParens": "always",
+	"overrides": [
+		{
+			"files": "*.mdx",
+			"options": {
+				"printWidth": 120,
+				"proseWrap": "always"
+			}
+		}
+	]
+}

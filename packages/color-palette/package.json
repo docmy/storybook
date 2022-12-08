@@ -1,0 +1,31 @@
+{
+	"name": "@docmy/storybook-color-palette",
+	"version": "0.0.0",
+	"description": "Color palette",
+	"keywords": [],
+	"author": "Renan Zanoti <rh.zanoti@gmail.com>",
+	"license": "ISC",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"directories": {
+		"lib": "lib"
+	},
+	"files": [
+		"lib"
+	],
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/renanzan/storybook-components.git"
+	},
+	"scripts": {
+		"build": "tsc"
+	},
+	"bugs": {
+		"url": "https://github.com/renanzan/storybook-components/issues"
+	},
+	"homepage": "https://github.com/renanzan/storybook-components#readme"
+}

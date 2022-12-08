@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": false,
+  "explorer.compactFolders": false,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSaveMode": "file",
+  "[typescriptreact][json][jsonc]": {
+    "editor.rulers": [80]
+  },
+  "[mdx]": {
+    "editor.rulers": [120]
+  }
+}
