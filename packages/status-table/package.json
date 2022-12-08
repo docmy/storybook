@@ -1,6 +1,6 @@
 {
 	"name": "@docmy/storybook-status-table",
-	"version": "0.0.0",
+	"version": "0.0.1-alpha.0",
 	"description": "All storybook preview components",
 	"keywords": [],
 	"author": "Renan Henrique Zanoti <rh.zanoti@gmail.com>",
