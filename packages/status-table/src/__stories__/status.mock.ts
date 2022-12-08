@@ -1,129 +1,125 @@
-import {
-	SubscriptionsType,
-	TDataGridColumns,
-	TDataGridRows,
-	Status
-} from "../types";
+import { TDataGridRows, EnumStatusStatus } from "../types";
+import { TSubscriptionDetails } from "../components/Subscription/types";
 
-export const superscription: SubscriptionsType = [
-	{
+export const superscriptionDetails: TSubscriptionDetails = {
+	figma: {
 		title: "Figma",
 		description:
 			"Todos os casos de uso foram prototipados no Figma e podem ser usados como referência"
 	},
-	{
+	storybook: {
 		title: "Storybook",
 		description: "O componente está devidamente documentado no Storybook"
 	},
-	{
+	unityTests: {
 		title: "Testes Unitário",
 		description: "Os testes unitários para o componente foram escritos"
 	},
-	{
+	react: {
 		title: "React",
 		description: "O componente está pronto para ser usado pelo desenvolvedor"
 	},
-	{
+	i18n: {
 		title: "i18n",
 		description: "O texto foi verificado e traduzido em cada idioma suportado"
 	}
-];
+};
 
 export const rows: TDataGridRows = [
 	{
 		component: {
 			name: "Button",
-			status: Status.READY,
+			status: EnumStatusStatus.READY,
 			group: "Inputs"
 		},
-		figma: Status.READY,
-		storybook: Status.READY,
-		tests: Status.READY,
-		react: Status.READY,
-		i18n: Status.READY
+		figma: EnumStatusStatus.READY,
+		storybook: EnumStatusStatus.READY,
+		tests: EnumStatusStatus.READY,
+		react: EnumStatusStatus.READY,
+		i18n: EnumStatusStatus.READY
 	},
 	{
 		component: {
 			name: "Autocomplete",
-			status: Status.IN_PROGRESS,
+			status: EnumStatusStatus.IN_PROGRESS,
 			group: "Inputs"
 		},
-		figma: Status.READY,
-		storybook: Status.IN_PROGRESS,
-		tests: Status.IN_PROGRESS,
-		react: Status.IN_PROGRESS,
-		i18n: Status.NA
+		figma: EnumStatusStatus.READY,
+		storybook: EnumStatusStatus.IN_PROGRESS,
+		tests: EnumStatusStatus.IN_PROGRESS,
+		react: EnumStatusStatus.IN_PROGRESS,
+		i18n: EnumStatusStatus.NA
 	},
 	{
 		component: {
 			name: "TextField",
-			status: Status.IN_QUEUE,
+			status: EnumStatusStatus.IN_QUEUE,
 			group: "Inputs"
 		},
-		figma: Status.IN_QUEUE,
-		storybook: Status.IN_QUEUE,
-		tests: Status.IN_QUEUE,
-		react: Status.IN_QUEUE,
-		i18n: Status.IN_QUEUE
+		figma: EnumStatusStatus.IN_QUEUE,
+		storybook: EnumStatusStatus.IN_QUEUE,
+		tests: EnumStatusStatus.IN_QUEUE,
+		react: EnumStatusStatus.IN_QUEUE,
+		i18n: EnumStatusStatus.IN_QUEUE
 	},
 	{
 		component: {
 			name: "Avatar",
-			status: Status.READY,
+			status: EnumStatusStatus.READY,
 			group: "DataDisplay"
 		},
-		figma: Status.READY,
-		storybook: Status.READY,
-		tests: Status.READY,
-		react: Status.READY,
-		i18n: Status.READY
+		figma: EnumStatusStatus.READY,
+		storybook: EnumStatusStatus.READY,
+		tests: EnumStatusStatus.READY,
+		react: EnumStatusStatus.READY,
+		i18n: EnumStatusStatus.READY
 	},
 	{
 		component: {
 			name: "Badge",
-			status: Status.NA,
+			status: EnumStatusStatus.NA,
 			group: "DataDisplay"
 		},
-		figma: Status.NA,
-		storybook: Status.NA,
-		tests: Status.NA,
-		react: Status.NA,
-		i18n: Status.NA
+		figma: EnumStatusStatus.NA,
+		storybook: EnumStatusStatus.NA,
+		tests: EnumStatusStatus.NA,
+		react: EnumStatusStatus.NA,
+		i18n: EnumStatusStatus.NA
 	},
 	{
 		component: {
 			name: "Alert",
-			status: Status.READY,
+			status: EnumStatusStatus.READY,
 			group: "Feedback"
 		},
-		figma: Status.READY,
-		storybook: Status.READY,
-		tests: Status.READY,
-		react: Status.READY,
-		i18n: Status.READY
+		figma: EnumStatusStatus.READY,
+		storybook: EnumStatusStatus.READY,
+		tests: EnumStatusStatus.READY,
+		react: EnumStatusStatus.READY,
+		i18n: EnumStatusStatus.READY
 	},
 	{
 		component: {
 			name: "Dialog",
-			status: Status.READY,
+			status: EnumStatusStatus.READY,
 			group: "Feedback"
 		},
-		figma: Status.READY,
-		storybook: Status.READY,
-		tests: Status.READY,
-		react: Status.READY,
-		i18n: Status.READY
+		figma: EnumStatusStatus.READY,
+		storybook: EnumStatusStatus.READY,
+		tests: EnumStatusStatus.READY,
+		react: EnumStatusStatus.READY,
+		i18n: EnumStatusStatus.READY
 	},
 	{
 		component: {
 			name: "Skeleton",
-			status: Status.NA,
+			status: EnumStatusStatus.NA,
 			group: "Feedback"
 		},
-		figma: Status.NA,
-		storybook: Status.NA,
-		tests: Status.NA,
-		react: Status.NA,
-		i18n: Status.NA
+		figma: EnumStatusStatus.NA,
+		storybook: EnumStatusStatus.NA,
+		tests: EnumStatusStatus.NA,
+		react: EnumStatusStatus.NA,
+		i18n: EnumStatusStatus.NA
 	}
 ];

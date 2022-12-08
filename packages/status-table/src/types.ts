@@ -1,28 +1,21 @@
-export enum Status {
+export enum EnumStatusStatus {
 	NA = "NA",
 	IN_QUEUE = "IN_QUEUE",
 	IN_PROGRESS = "IN_PROGRESS",
 	READY = "READY"
 }
 
-type SubscriptionType = {
-	title: string;
-	description: string;
-};
-
-export type SubscriptionsType = Array<SubscriptionType>;
-
-export type ComponentStatus = {
+export type TComponentStatus = {
 	component: {
 		name: string;
-		status?: Status;
+		status?: EnumStatusStatus;
 		group?: string;
 	};
-	figma: Status;
-	storybook: Status;
-	tests: Status;
-	react: Status;
-	i18n: Status;
+	figma: EnumStatusStatus;
+	storybook: EnumStatusStatus;
+	tests: EnumStatusStatus;
+	react: EnumStatusStatus;
+	i18n: EnumStatusStatus;
 };
 
 type TDataGridColumnComponent = {
@@ -33,12 +26,12 @@ type TDataGridColumnComponent = {
 export type TDataGridColumns = [
 	TDataGridColumnComponent,
 	...Array<{
-		key: keyof ComponentStatus;
+		key: keyof TComponentStatus;
 		label?: string;
 	}>
 ];
 
-export type TDataGridRows = Array<ComponentStatus>;
+export type TDataGridRows = Array<TComponentStatus>;
 
 export interface IDataGridProps
 	extends React.TableHTMLAttributes<HTMLTableElement> {

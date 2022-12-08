@@ -1,31 +1,13 @@
 import React, { Fragment } from "react";
 
-import { IDataGridProps, Status, TDataGridRows } from "./types";
+import Subscription from "./components/Subscription";
+import { IDataGridProps, EnumStatusStatus, TDataGridRows } from "./types";
 import * as S from "./styles";
-
-const Badge = ({ status }) => {
-	if (!status) return <Fragment />;
-
-	if (status === "IN_QUEUE")
-		return (
-			<S.Badge status="READY" className="badge badge-in-queue">
-				Na fila
-			</S.Badge>
-		);
-
-	if (status === "IN_PROGRESS")
-		return <S.Badge className="badge badge-in-progress">Em andamento</S.Badge>;
-
-	if (status === "READY")
-		return <S.Badge className="badge badge-ready">Pronto</S.Badge>;
-
-	return <S.Badge className="badge badge-nd">N/A</S.Badge>;
-};
 
 const StatusTable: React.FC<IDataGridProps> = (props) => {
 	const { rows, ...restProps } = props;
 
-	const badgeLabels: { [key in Status]: string } = {
+	const badgeLabels: { [key in EnumStatusStatus]: string } = {
 		NA: "N/A",
 		IN_QUEUE: "Na fila",
 		IN_PROGRESS: "Em andamento",
@@ -139,4 +121,4 @@ const StatusTable: React.FC<IDataGridProps> = (props) => {
 	);
 };
 
-export default StatusTable;
+export default Object.assign(StatusTable, { Subscription });

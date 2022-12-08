@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { Status } from "./types";
+import { EnumStatusStatus } from "./types";
 
 export const Table = styled.table`
 	width: 100%;
@@ -40,7 +40,7 @@ export const Td = styled.td`
 `;
 
 type BadgeAttrs = {
-	status: Status;
+	status: EnumStatusStatus;
 };
 
 export const Badge = styled.span<BadgeAttrs>`
