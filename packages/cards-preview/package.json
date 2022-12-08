@@ -30,5 +30,6 @@
 	"homepage": "https://github.com/renanzan/storybook-components#readme",
 	"devDependencies": {
 		"@docmy/storybook-squared-paper": "^0.0.2-alpha.0"
-	}
+	},
+	"gitHead": "aab0a6fe7535d2703a738edfa23ff294c3b2a5b1"
 }

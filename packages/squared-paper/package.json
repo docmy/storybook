@@ -27,5 +27,6 @@
 	"bugs": {
 		"url": "https://github.com/renanzan/storybook-components/issues"
 	},
-	"homepage": "https://github.com/renanzan/storybook-components#readme"
+	"homepage": "https://github.com/renanzan/storybook-components#readme",
+	"gitHead": "aab0a6fe7535d2703a738edfa23ff294c3b2a5b1"
 }

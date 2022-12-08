@@ -1,6 +1,6 @@
 {
 	"name": "@docmy/storybook-components",
-	"version": "0.0.1-alpha.0",
+	"version": "0.0.2-alpha.0",
 	"description": "All storybook preview components",
 	"keywords": [],
 	"author": "Renan Henrique Zanoti <rh.zanoti@gmail.com>",
@@ -29,11 +29,12 @@
 	},
 	"homepage": "https://github.com/renanzan/storybook-components#readme",
 	"dependencies": {
-		"@docmy/storybook-status-table": "^0.0.1-alpha.0",
-		"@docmy/storybook-breakpoint-indicator": "^0.0.1-alpha.0",
-		"@docmy/storybook-cards-preview": "^0.0.1-alpha.0",
-		"@docmy/storybook-color-palette": "^0.0.1-alpha.0",
-		"@docmy/storybook-squared-paper": "^0.0.1-alpha.0",
-		"@docmy/storybook-typeset": "^0.0.1-alpha.0"
-	}
+		"@docmy/storybook-breakpoint-indicator": "^0.0.2-alpha.0",
+		"@docmy/storybook-cards-preview": "^0.0.2-alpha.0",
+		"@docmy/storybook-color-palette": "^0.0.2-alpha.0",
+		"@docmy/storybook-squared-paper": "^0.0.2-alpha.0",
+		"@docmy/storybook-status-table": "^0.0.2-alpha.0",
+		"@docmy/storybook-typeset": "^0.0.2-alpha.0"
+	},
+	"gitHead": "aab0a6fe7535d2703a738edfa23ff294c3b2a5b1"
 }
