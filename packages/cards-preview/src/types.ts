@@ -1,4 +1,4 @@
-import { CSSProperties } from "react";
+import React, { CSSProperties } from "react";
 
 type VariantsType =
 	| {
@@ -10,7 +10,9 @@ type VariantsType =
 			styles: CSSProperties;
 	  };
 
-export type CardPreviewProps =
+export type CardPreviewProps = {
+	children?: React.ReactNode;
+} & (
 	| {
 			variants: {
 				[key: string]: VariantsType;
@@ -23,4 +25,5 @@ export type CardPreviewProps =
 			};
 			keyPrefix?: string;
 			styleKey: keyof CSSProperties;
-	  };
+	  }
+);

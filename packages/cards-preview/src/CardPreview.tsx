@@ -6,6 +6,7 @@ import * as S from "./styles";
 const CardPreview: React.FC<T.CardPreviewProps> = ({
 	variants,
 	keyPrefix = "",
+	children,
 	...rest
 }) => (
 	<S.List>
@@ -25,7 +26,9 @@ const CardPreview: React.FC<T.CardPreviewProps> = ({
 			return (
 				<S.CardContainer>
 					<span>{`${keyPrefix}${key}`}</span>
-					<S.Card key={idx} style={styles} className={classNames} />
+					<S.Card key={idx} style={styles} className={classNames}>
+						{children}
+					</S.Card>
 				</S.CardContainer>
 			);
 		})}

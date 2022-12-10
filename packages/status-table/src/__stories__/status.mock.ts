@@ -1,7 +1,7 @@
 import { TDataGridRows, EnumStatusStatus } from "../types";
 import { TSubscriptionDetails } from "../components/Subscription/types";
 
-export const superscriptionDetails: TSubscriptionDetails = {
+export const subscriptionDetails: TSubscriptionDetails = {
 	figma: {
 		title: "Figma",
 		description:
