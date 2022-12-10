@@ -1,6 +1,6 @@
 {
 	"name": "@docmy/storybook-typeset",
-	"version": "0.0.3-alpha.0",
+	"version": "0.0.4-alpha.0",
 	"description": "Typeset",
 	"keywords": [],
 	"author": "Renan Henrique Zanoti <rh.zanoti@gmail.com>",
@@ -29,7 +29,7 @@
 	},
 	"homepage": "https://github.com/renanzan/storybook-components#readme",
 	"devDependencies": {
-		"@docmy/storybook-squared-paper": "^0.0.3-alpha.0"
+		"@docmy/storybook-squared-paper": "^0.0.4-alpha.0"
 	},
 	"gitHead": "fbe654ac08290ca30829de11ab450f55aa21c58d"
 }
