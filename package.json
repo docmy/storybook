@@ -25,7 +25,7 @@
 	},
 	"dependencies": {},
 	"scripts": {
-		"dev": "npm run build && start-storybook -p 6006",
+		"dev": "start-storybook -p 6006",
 		"build": "lerna run build",
 		"build-storybook": "build-storybook",
 		"publish:lib": "yarn build & lerna publish"

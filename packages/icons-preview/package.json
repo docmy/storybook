@@ -1,7 +1,7 @@
 {
-	"name": "@docmy/storybook-components",
-	"version": "0.0.4-alpha.0",
-	"description": "All storybook preview components",
+	"name": "@docmy/icons-preview",
+	"version": "0.0.0",
+	"description": "Icons Preview",
 	"keywords": [],
 	"author": "Renan Henrique Zanoti <rh.zanoti@gmail.com>",
 	"license": "ISC",
@@ -28,14 +28,9 @@
 		"url": "https://github.com/renanzan/storybook-components/issues"
 	},
 	"homepage": "https://github.com/renanzan/storybook-components#readme",
-	"dependencies": {
-		"@docmy/icons-preview": "^0.0.0",
-		"@docmy/storybook-breakpoint-indicator": "^0.0.4-alpha.0",
-		"@docmy/storybook-cards-preview": "^0.0.4-alpha.0",
-		"@docmy/storybook-color-palette": "^0.0.4-alpha.0",
+	"devDependencies": {
 		"@docmy/storybook-squared-paper": "^0.0.4-alpha.0",
-		"@docmy/storybook-status-table": "^0.0.4-alpha.0",
-		"@docmy/storybook-typeset": "^0.0.4-alpha.0"
+		"@heroicons/react": "^2.0.13"
 	},
 	"gitHead": "92f865c36c84c72ce81908b367ad56d96b484bbb"
 }
