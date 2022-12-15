@@ -1,6 +1,6 @@
 {
 	"name": "@docmy/icons-preview",
-	"version": "0.0.0",
+	"version": "0.0.1-alpha.0",
 	"description": "Icons Preview",
 	"keywords": [],
 	"author": "Renan Henrique Zanoti <rh.zanoti@gmail.com>",
@@ -29,7 +29,7 @@
 	},
 	"homepage": "https://github.com/renanzan/storybook-components#readme",
 	"devDependencies": {
-		"@docmy/storybook-squared-paper": "^0.0.4-alpha.0",
+		"@docmy/storybook-squared-paper": "^0.0.5-alpha.0",
 		"@heroicons/react": "^2.0.13"
 	},
 	"gitHead": "92f865c36c84c72ce81908b367ad56d96b484bbb"
