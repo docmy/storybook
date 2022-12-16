@@ -12,7 +12,7 @@ const IconsPreview: React.FC<T.IconsPreviewProps> = ({
 
 	const currentIcons = icons[variant];
 	const filteredIcons = Object.keys(currentIcons)
-		.filter((key) => key.includes(search))
+		.filter((key) => key.toLocaleLowerCase().includes(search.toLowerCase()))
 		.reduce((obj, key) => {
 			return Object.assign(obj, {
 				[key]: currentIcons[key]
