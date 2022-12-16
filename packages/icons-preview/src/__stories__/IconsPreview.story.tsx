@@ -11,8 +11,6 @@ export default {
 	component: IconsPreview
 } as ComponentMeta<typeof IconsPreview>;
 
-//
-
 export const Default = () => (
 	<IconsPreview
 		searchInput={{
