@@ -29,7 +29,7 @@
 	},
 	"homepage": "https://github.com/renanzan/storybook-components#readme",
 	"dependencies": {
-		"@docmy/icons-preview": "^0.0.0",
+		"@docmy/icons-preview": "^0.0.2-alpha.0",
 		"@docmy/storybook-breakpoint-indicator": "^0.0.4-alpha.0",
 		"@docmy/storybook-cards-preview": "^0.0.4-alpha.0",
 		"@docmy/storybook-color-palette": "^0.0.4-alpha.0",
