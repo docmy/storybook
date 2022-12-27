@@ -33,6 +33,7 @@ export const PalleteItem = styled.li`
 	flex-direction: column;
 	align-items: center;
 	list-style: none;
+	max-width: 147px;
 	padding: 0px;
 	width: 100%;
 `;
@@ -40,7 +41,6 @@ export const PalleteItem = styled.li`
 export const PalletePreview = styled.div`
 	height: 62px;
 	width: 100%;
-	max-width: 147px;
 	border-radius: 4px;
 	margin-bottom: 4px;
 `;
