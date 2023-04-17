@@ -126,15 +126,6 @@ export const IconItem = styled.div`
 			display: flex;
 		}
 	}
-
-	> label {
-		text-align: center;
-		font-size: 14px;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		color: rgb(100, 116, 139);
-		margin-top: 12px;
-	}
 `;
 
 export const IconContainer = styled.div`
@@ -151,5 +142,30 @@ export const IconContainer = styled.div`
 	> div {
 		height: 24px;
 		width: 24px;
+	}
+`;
+
+export const LabelContainer = styled.div`
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 12px;
+
+	&:hover {
+		display: flex;
+		justify-content: center;
+		overflow: visible;
+
+		> label {
+			position: relative;
+			background-color: #fff;
+			border-radius: 8px;
+			padding: 0 12px;
+		}
+	}
+
+	> label {
+		text-align: center;
+		font-size: 14px;
+		color: rgb(100, 116, 139);
 	}
 `;

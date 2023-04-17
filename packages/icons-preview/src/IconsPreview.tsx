@@ -69,7 +69,9 @@ const IconsPreview: React.FC<T.IconsPreviewProps> = ({
 							</S.IconItemActions>
 						</S.IconContainer>
 
-						<label>{icon}</label>
+						<S.LabelContainer>
+							<label>{icon}</label>
+						</S.LabelContainer>
 					</S.IconItem>
 				))}
 			</S.IconsTable>
