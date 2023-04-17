@@ -149,6 +149,7 @@ export const LabelContainer = styled.div`
 	overflow: hidden;
 	text-overflow: ellipsis;
 	margin-top: 12px;
+	text-align: center;
 
 	&:hover {
 		display: flex;
@@ -164,7 +165,6 @@ export const LabelContainer = styled.div`
 	}
 
 	> label {
-		text-align: center;
 		font-size: 14px;
 		color: rgb(100, 116, 139);
 	}
